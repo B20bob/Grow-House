@@ -4,10 +4,14 @@ This is a growhouse project that will be used as an indoor herb garden as well a
 
 - Internal Dimensions: 32"x20"x20".
 
-![Closed](Images/Closed.jpg?raw=true "Closed")
+Closed:
+![Closed](Images/Closed.jpg?raw=true)
 
+CAD View:
 ![CAD view](Images/CADview.png)
 
+Open:
 ![Open](Images/Open.jpg)
 
+Placement of probe:
 ![Probe-Inside-Growhouse](Images/Probe-Inside-Growhouse.jpg)
