@@ -6,4 +6,4 @@ This is a growhouse project that will be used as an indoor herb garden as well a
 
 ![Closed](Images/Closed.jpg?raw=true)
 
-![CAD view](Images/CADview)
+![CAD view](Images/CADview.jpg)
