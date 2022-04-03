@@ -45,6 +45,10 @@ bme280 = bme280 = adafruit_bme280.Adafruit_BME280_I2C(bmei2c, 0x76)
 led_pin = DigitalInOut(board.LED)
 led_pin.switch_to_output()
 
+# Configure External LED:
+external_led = DigitalInOut(board.GP28)
+external_led.switch_to_output()
+
 
 
 prv_refresh_time = 0.0
@@ -55,6 +59,7 @@ while True:
 
     if (time.monotonic() - prv_refresh_time) > 30:
         led_pin.value = True
+        external_led.value = True
         # read tempurature from bme280
         temp = bme280.temperature * 9 / 5 + 32
         # truncate to two decimal points
@@ -89,4 +94,5 @@ while True:
 
         
         led_pin.value = False
+        external_led.value = False
         prv_refresh_time = time.monotonic()
