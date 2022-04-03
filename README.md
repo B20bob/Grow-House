@@ -4,4 +4,4 @@ This is a growhouse project that will be used as an indoor herb garden as well a
 
 - Internal Dimensions: 32"x20"x20".
 
-![Closed](/repository/assets/employee.png?raw=true "Closed cabinet")
+![Closed](csn495/Grow-House/blob/master/Images/Closed.jpg?raw=true "Closed cabinet")
