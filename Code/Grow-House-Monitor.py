@@ -7,7 +7,7 @@ Required libraries in lib folder:
 ---------------------------------------------------------
 Pulls Ambient Temp + Humidity from BME280 and displays values on LCD display.
 Refresh rate is set to 30 seconds.
-Intigrated LED on Pico blinks during refresh cycle.
+Intigrated LED on Pico + External LED blink during refresh cycle.
 
 """
 
